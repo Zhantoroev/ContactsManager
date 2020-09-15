@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String [] args){
         
-        ContactsManager myContactsManager = ne	w ContactsManager();
+        ContactsManager myContactsManager = new ContactsManager();
 
 	// Create a new Contact
         // Contact object for friend1
@@ -30,6 +30,6 @@ public class Main {
         
         // Search for contact
         Contact result = myContactsManager.searchContact("friend3");
-        System.out.println(result.name + ": " + result.phoneNum);
+        System.out.println(result.name + " : " + result.phoneNum);
     }
 }
